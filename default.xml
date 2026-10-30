@@ -1132,5 +1132,8 @@
   <include name="snippets/remove.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixelos.xml" />
+  <!-- MD -->
+  <include name="snippets/rm.xml" />
+  <include name="snippets/md.xml" />
 
 </manifest>
