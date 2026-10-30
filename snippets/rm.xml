@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Bootable -->
+  <remove-project name="PixelOS-AOSP/android_bootable_recovery" />
+
+  <!-- Build -->
+  <remove-project name="PixelOS-AOSP/android_build" />
+  <remove-project name="PixelOS-AOSP/android_build_soong" />
+
+  <!-- External -->
+  <remove-project name="PixelOS-AOSP/android_external_avb" />
+  <remove-project name="PixelOS-AOSP/android_external_tinycompress" />
+
+  <!-- Frameworks -->
+  <remove-project name="PixelOS-AOSP/android_frameworks_av" />
+  <remove-project name="PixelOS-AOSP/android_frameworks_base" />
+  <remove-project name="PixelOS-AOSP/android_frameworks_native" />
+  <remove-project name="PixelOS-AOSP/android_frameworks_opt_telephony" />
+
+  <!-- Hardware -->
+  <remove-project name="PixelOS-AOSP/android_hardware_interfaces" />
+  <remove-project name="PixelOS-AOSP/android_hardware_nxp_nfc" />
+
+  <!-- Hardware (QCOM) -->
+  <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
+
+  <!-- Packages -->
+  <remove-project name="PixelOS-AOSP/android_packages_apps_Settings" />
+  <remove-project name="PixelOS-AOSP/android_packages_apps_Updater" />
+
+  <!-- System -->
+  <remove-project name="PixelOS-AOSP/android_system_core" />
+  <remove-project name="PixelOS-AOSP/android_system_fs_fs_mgr" />
+  <remove-project name="PixelOS-AOSP/android_system_logging" />
+  <remove-project name="PixelOS-AOSP/android_system_memory_libmeminfo" />
+  <remove-project name="PixelOS-AOSP/android_system_sepolicy" />
+  <remove-project name="PixelOS-AOSP/android_system_update_engine" />
+
+  <!-- Vendor -->
+  <remove-project name="PixelOS-AOSP/android_vendor_crowdin" />
+  <remove-project name="PixelOS-AOSP/android_vendor_custom" />
+  <remove-project name="PixelOS-AOSP/android_vendor_custom-preference" />
+  <remove-project name="PixelOS-AOSP/android_vendor_lineage" />
+
+</manifest>
